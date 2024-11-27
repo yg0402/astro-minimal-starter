@@ -1,5 +1,5 @@
 export default {
-  title: `EIGHT BY FIVE. | 85mm`,
+  title: `EIGHT BY FIVE.`,
   description: `個人ブログ`,
   url: `https://astro-minimal-starter.netlify.app`, // No trailing slash!
   // JSON LD
