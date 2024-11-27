@@ -25,6 +25,8 @@ time, mark, audio, video {
   font-size:100%;
   vertical-align:baseline;
   background:transparent;
+  box-sizing: border-box;
+  display: inline-block;
 }
 
 body {
@@ -141,8 +143,29 @@ h1 {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 450;
   font-style: normal;
-   }
+  letter-spacing: -0.04em;
+}
 
-   
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu{
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 450;
+  font-style: normal;
+  letter-spacing: -0.04em;
+}
+
+.sub-text {
+  font-family: YakuHanJP, "Hiragino Sans", "Hiragino Kaku Gothic ProN", sans-serif;
+  font-size: 13px;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
