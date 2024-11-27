@@ -162,10 +162,21 @@ nav {
   letter-spacing: -0.04em;
 }
 
-.sub-text {
+.description-text {
   font-family: YakuHanJP, "Hiragino Sans", "Hiragino Kaku Gothic ProN", sans-serif;
   font-size: 13px;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  padding-top: 40px;
+}
+
+.dark-light-icon {
+  height: 14px;
+}
+
+.menu-wrapper {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
 }
