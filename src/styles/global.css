@@ -27,3 +27,14 @@ body::before {
   opacity: 0.4; /* 背景画像の透明度 */
   z-index: -1; /* 背景を後ろに配置 */
 }
+
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+   }
+
+   
